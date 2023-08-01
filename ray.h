@@ -16,7 +16,7 @@ public:
  
   Point3 origin() const;
   Vec3 direction() const;
-  Point3 at(double t) const;
+  Point3 at(const double t) const;
 
 public:
   Point3 orig;
